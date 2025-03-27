@@ -7,19 +7,21 @@ This project is aimed at scraping data from the JustWatch website, a popular pla
 
 ## Requirements
 ```
-### Python 3.x
-### Beautiful Soup 4
-### Requests
+Python 3.x
+Beautiful Soup 4
+Requests
+HtmlParser
+WordCloud
 ```
 ## Data Cleaning and Manipulation
 After scraping the data, certain cleaning and manipulation techniques can be applied to improve its quality and usefulness. These techniques may include:
 ```
-### Removing duplicate entries
-### Handling missing or null values
-### Standardizing text fields (e.g., converting titles to title case)
-### Extracting relevant information (e.g., extracting genres from descriptions)
-### Normalizing data (e.g., converting dates to a standardized format)
-### The data cleaning and manipulation process may be implemented within the justwatch_scraper.py script or in separate data preprocessing scripts depending on the complexity of the tasks.
+Removing duplicate entries
+Handling missing or null values
+Standardizing text fields (e.g., converting titles to title case)
+Extracting relevant information (e.g., extracting genres from descriptions)
+Normalizing data (e.g., converting dates to a standardized format)
+The data cleaning and manipulation process may be implemented within the justwatch_scraper.py script or in separate data preprocessing scripts depending on the complexity of the tasks.
 ```
 
 ## Acknowledgements
